@@ -70,10 +70,31 @@
     filter: brightness(0.5);
     filter: invert(0.8);
 }
+
+.ex-8-img {
+    transition: 4s;
+}
+
+.ex-8-img:hover {
+    filter: brightness(0.5);
+    filter: invert(0.8);
+    border-radius: 20%;
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 4s ease-in-out;
 }
+
+.ex-9-img:hover {
+    filter: brightness(0.5);
+    filter: invert(0.8);
+    border-radius: 20%;
+    width: calc(100% - 200px);
+    height: calc(100% - 100px);
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
